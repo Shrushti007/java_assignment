@@ -1,0 +1,16 @@
+package dac;
+public class OccuranceElement {
+	public static void main(String[] args) {
+        int a[] = {22,55,11,11,22,55,88,44,33,33,33,22,11};
+		for (int i = 0; i < a.length; i++) 
+		{    int count=0;
+			for (int j = 0; j < a.length; j++) 
+			{
+				if(a[i]==a[j])
+					count++;
+			}
+			System.out.println("number of = " +a[i]+ "  occurrence  " +count+ "   in array");
+		}
+	}
+
+}

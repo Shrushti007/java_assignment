@@ -1,0 +1,21 @@
+package dac;
+public class Pattern2 {
+	public static void main(String args[]) {
+		int r,c,row=5, star=5,space=0;
+		for(r=1;r<=5;r++)	
+		{
+			for(int k=0;k<space;k++)
+			{
+			System.out.print(" ");
+			}
+		for(c=0;c<star;c++)
+		{
+			System.out.print(" *");
+		}
+		System.out.println();
+		space++;
+		star--;
+	}
+	}
+
+}
